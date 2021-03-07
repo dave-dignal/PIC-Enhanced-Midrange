@@ -1,0 +1,128 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"10 /Applications/microchip/xc8/v2.20/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v2.20/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"46 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"50 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"591 /Applications/microchip/mplabx/v5.40/packs/Microchip/PIC16F1xxxx_DFP/1.4.119/xc8/pic/include/proc/pic16f18855.h
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"653
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"715
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"777
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+[s S27 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"794
+[u S36 . 1 `S27 1 . 1 0 ]
+[v _LATAbits LATAbits `VES36  1 e 1 @22 ]
+"839
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"901
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+"21889
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"21946
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22017
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22062
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22118
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22169
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"23240
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23380
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23477
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23528
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23586
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"32907
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"32969
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"33031
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"33093
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"33155
+[v _INLVLA INLVLA `VEuc  1 e 1 @3900 ]
+"33527
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33589
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33651
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33713
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"33775
+[v _INLVLB INLVLB `VEuc  1 e 1 @3911 ]
+"34147
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34209
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34271
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34333
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34395
+[v _INLVLC INLVLC `VEuc  1 e 1 @3922 ]
+"34767
+[v _WPUE WPUE `VEuc  1 e 1 @3941 ]
+"34788
+[v _INLVLE INLVLE `VEuc  1 e 1 @3944 ]
+"46 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+} 0
+"50 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"55 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"57 /Users/dignal/MPLABXProjects/cursoPIC16/LED_MCC.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
